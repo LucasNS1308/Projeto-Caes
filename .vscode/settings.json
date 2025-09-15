@@ -1,0 +1,13 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.fontSize": 14,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "editor.colorDecorators": false,
+  "workbench.sideBar.location": "left",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true
+}
