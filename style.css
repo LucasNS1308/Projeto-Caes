@@ -1,3 +1,5 @@
+/*Pagina Principal */
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -23,18 +25,19 @@ body {
 .menu {
   display: flex;
   justify-content: center;
-  gap: 70px;
-  margin-bottom: 30px;
+  margin-top: 20px;
   padding: 15px;
-  background: #a4a9b6;
-  height: 20px;
-  margin-top: 40px;
+  gap: 150px;
+  background-color: #a4a9b6;
+  border-radius: 4px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 .menu a {
   text-decoration: none;
   color: #000000;
-  font-weight: 600;
-  transition: 0.3s;
+  font-weight: 100;
+  transition: 0.9s;
 }
 .menu a:hover {
   color: #fff;
@@ -53,7 +56,7 @@ body {
 
 /* Cada card */
 .nome {
-  background: rgb(198, 197, 197);
+  background: #a4a9b6;
   border-radius: 15px;
   box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -73,8 +76,8 @@ body {
 }
 
 .nome:hover .foto {
-  transition: 0.2;
-  transform: scale(1.1);
+  transition: 1s;
+  transform: scale(1.2);
 }
 
 /* Texto do card */
@@ -98,4 +101,31 @@ button {
 
 button:hover {
   background: rgb(9, 0, 181);
+}
+
+body {
+  background: #ffffff;
+  transition: 0.3s;
+}
+body.darkmode {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* CONTATO */
+
+.inicio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #a4a9b6;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+.adress {
+  margin: 400px;
+  left: 150px;
+  text-align: initial;
 }
